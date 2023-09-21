@@ -1,3 +1,7 @@
+// Count 2: PRINCE PALEWAR 
+// SHA key: 9c236cb6a4be05fc12838ed426750bcd5dc017ba 
+
+
 var myFullName;
 console.log(myFullName);
 myFullName="Prince Palewar";
@@ -22,4 +26,5 @@ var gender = "Male";
 console.log("Gender: ", gender);
 var isMarried = "No I Am Not";
 console.log("Married: ",isMarried);
+
 
