@@ -18,3 +18,6 @@ console.log("Total Count: ",totalCount, "DataType:",typeof totalCount);
 console.log("++++++++ TASK 04-b ++++++++");
 var totalCount = 105;
 console.log("Total Count: ",totalCount, "DataType:",typeof totalCount);
+
+// Count 6: PRINCE PALEWAR 
+// SHA KEY: ee200b28dcb2ff4141862f2335f2b92913ce4ca4
