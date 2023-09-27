@@ -20,6 +20,9 @@ function wordLength(word) {
     var result = word.length%2==0 ? console.log(`3. The length of given word "${word}" is EVEN.`) : console.log(`3. The length of given word "${word}" is ODD.`);;
 }
 wordLength("CodeMindTechnology");
+wordLength("JavaScript");
+wordLength("Developer");
+wordLength("Google");
 
 // count 1: PRINCE PALEWAR 
-// SHA KEY: 5f9ab5dacb1c06aa97adc3a20003c59e510f6cee
+// SHA KEY: d43bc5278f40b5be3dd3498bd2dabd9088ecff8a
