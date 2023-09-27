@@ -25,5 +25,5 @@ function operatorOperation() {
 }
 operatorOperation();
 
-// count : PRINCE PALEWAR 
+// count1 : PRINCE PALEWAR 
 // SHA Key: a14a65577a9a8c25b11b7bd100145e55707430b7

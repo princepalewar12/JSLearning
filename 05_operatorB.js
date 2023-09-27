@@ -11,9 +11,15 @@ console.log(`+++++++++++++++++++++++++++++++++++ TASK 02 +++++++++++++++++++++++
 function isEvenOrOddNum(num) {
     var result = num%2==0 ? console.log(`2. The given number ${num} is even: True.`) : console.log(`2. The given number ${num} is odd: False`);
 }
-isEvenOrOddNum(69);
+isEvenOrOddNum(29);
+isEvenOrOddNum(44);
+isEvenOrOddNum(0);
+isEvenOrOddNum(101);
 console.log(`+++++++++++++++++++++++++++++++++++ TASK 03 ++++++++++++++++++++++++`);
 function wordLength(word) {
     var result = word.length%2==0 ? console.log(`3. The length of given word "${word}" is EVEN.`) : console.log(`3. The length of given word "${word}" is ODD.`);;
 }
 wordLength("CodeMindTechnology");
+
+// count 1: PRINCE PALEWAR 
+// SHA KEY: 5f9ab5dacb1c06aa97adc3a20003c59e510f6cee
