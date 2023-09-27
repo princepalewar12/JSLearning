@@ -79,4 +79,4 @@ console.log("data type:",typeof split);
 
 // String template
 console.log("I am a \"UI\" developer"); 
-console.log(`I am a "UI" developer`); 
+console.log(`I am a "UI" developer`);   
