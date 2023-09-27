@@ -11,5 +11,5 @@ function stringTamplateAssign() {
 }
 stringTamplateAssign()
 
-count :PRINCE PALEWAR 
-SHA KEY: 
+// count 9 :PRINCE PALEWAR 
+// SHA KEY: e701e8004da5ceb9f0e79a193662979ced81ec78
