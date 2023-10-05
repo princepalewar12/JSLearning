@@ -27,5 +27,6 @@ countCharA("My favourite movie is LAggAn");
 // }
 // console.log(count);
 
-count 4: PRINCE PALEWAR 
-sha key: 
+// count 4: PRINCE PALEWAR 
+// sha key: 3d21582c23842a53213c9dc38fd543fe4fca326a
+
