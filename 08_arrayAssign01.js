@@ -13,3 +13,6 @@ for(let i = 0; i<=arrayNum.length-1; i++){
     sum = sum + arrayNum[i];
 }
 console.log(`The sum of given Array element is: "${sum}".`);
+
+// count 2: PRINCE PALEWAR; 
+// SHA KEY: b1afa199fe29562024225fe313a27f05017d4a24; 
