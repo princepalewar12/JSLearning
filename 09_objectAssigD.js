@@ -34,3 +34,6 @@ console.log(`========= Traversed certificates array using forOf loop ===========
 for (const key of professor.certificates) {
     console.log(key);
 }
+
+// count 1: PRINCE PALEWAR;
+// SHA Key: 3bd1f2d42d51a060bd038721240333b69124c34d
