@@ -25,5 +25,5 @@ console.log(`The open time of SBI bank is "${axisBank.openTime}" and close time 
 console.log(`The bank name is ${axisBank.bankName} and close time is ${axisBank.cityloseTime}`);
 console.log(`The bank name is ${yesBank.bankName}, ${yesBank.branchCode} and ${yesBank.openTime}`);
 
-count : PRINCE PALEWAR 
-sha key: 
+// count : PRINCE PALEWAR 
+// sha key: dd83c5e9cf0083ea2f682917acb47acd8d421ae6
