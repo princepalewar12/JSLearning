@@ -37,3 +37,5 @@ var reverse = '';
 for(let i = words.length-1; i= words.length; i--){
     console.log(words.charAt(i));
 }
+
+// sha key: 09ac13c085c992043747cca69588b6fbdf2839c7
