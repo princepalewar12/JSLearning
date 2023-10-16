@@ -27,3 +27,6 @@ console.log(`The last name of the employee is "${splitName[1]}"`);
 let logJoiningYear = objectConvert.doj;
 let splitDoj = logJoiningYear.split("-");
 console.log(`The joining year of employee is "${splitDoj[2]}"`);
+
+// count 6: Prince Palewar
+// sha key:c79eda270378a98e0504d157743f81323357d6a9 

@@ -8,6 +8,11 @@ let person = {
 }
 console.log(typeof person);
 console.log(person);
+console.log(`===================================`);
+console.log('age' in person);
+console.log(`===================================`);
+
+
 
 //Property access
 //1. Dot Notation
