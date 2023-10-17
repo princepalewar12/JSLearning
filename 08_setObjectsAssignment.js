@@ -37,7 +37,6 @@ bankSet.add(panjab_bank);
 
 console.log(bankSet);
 let bankKeys = bankSet.keys();
-console.log(`++++++++++++++++++++++++++++++++++++`);
 
 // console.log(bankKeys);
 console.log(`++++++++++++++++ Traversed and log the bank name & location ++++++++++++++++++++`);
@@ -45,5 +44,5 @@ for (const keys of bankKeys) {
     console.log(`Bank Name:-${keys.bank_name}, Location:-${keys.location}`);
 }
 
-count :PRINCE PALEWAR;
-SHA KEY: a3dfb7de00fb9e8d089e9f147cc004aa77ec30e5 
+// count :PRINCE PALEWAR;
+// SHA KEY: a3dfb7de00fb9e8d089e9f147cc004aa77ec30e5 
