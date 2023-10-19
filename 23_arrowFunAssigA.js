@@ -21,3 +21,5 @@ console.log(`The addition of given five number is "${addOfFive}"`);
 let concatWords = addition("I am ","learning ","ES6 ","features ","in depth.");
 console.log(concatWords);
 
+count 5: PRINCE PALEWAR 
+SHA KEY: 14ca2228c3a75e7c9f343db70e799b865ac9760d
