@@ -54,3 +54,6 @@ arrayEmployees.forEach((employee) => {
         console.log(`The employee "${employee.emp_name}" bearing employee ID "${employee.emp_id}" is working in "${employee.emp_company}" company in the department of "${employee.emp_dept}". Who's salary is "${employee.emp_salary}".`);
     }
 })
+
+// count 6: PRINCE PALEWAR 
+// sha key: 51610593ae9b9a4ebc357eb4f7d38ec3e7c3a7a1
