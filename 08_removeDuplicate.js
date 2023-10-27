@@ -13,15 +13,11 @@
 
 // remove duplicate element using for loop
 const arrayNum = [11, 3, 4, 11, 4, 7, 3];
-// let value;
-// let value1;
-// for (let i = 0; i <arrayNum.length; i++) {
-//     value = arrayNum[i];
-//     console.log(value);
+for(let i=0; i<=arrayNum.length-1; i++){
 
-//     if(arrayNum[i]==value){
-//         console.log(value);
-//         return true;
-//     }
-// }
-
+    for(let j= arrayNum[i]; j==arrayNum[i]; j++){
+        console.log(`True`);
+    }
+    
+    
+}
