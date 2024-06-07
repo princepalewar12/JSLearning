@@ -20,6 +20,7 @@ let emp_radha = new Employee(33, "Radha",'HR',74000,'wipro')
 const arrayEmployee = [emp_anil,emp_radha];
 
 arrayEmployee.forEach((employee)=>{
+    // console.log(employee.emp_name, employee.emp_company);
     if(employee.emp_company =="TCS"){
         console.log(`${employee.emp_name,employee.emp_company}`);
     }

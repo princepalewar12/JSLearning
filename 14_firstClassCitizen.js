@@ -10,4 +10,5 @@ function outer(){
         console.log(`Inside inner function`);
     }
 }
-outer()();
+let res = outer();
+res()

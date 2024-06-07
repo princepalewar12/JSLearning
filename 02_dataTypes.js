@@ -15,7 +15,7 @@ console.log(typeof firstName);
 var city = 'Pune';
 
 console.log("City=>", city, "data type==>", typeof city);
-
+  
 
 
 var hscMarks = '78';

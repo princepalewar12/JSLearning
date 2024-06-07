@@ -5,8 +5,7 @@ function outer(){
         let innerVariable = 300;
         console.log(innerVariable,outerVariable,global);
     }
-    return inner;
+    return inner; 
 }
-// outer()();
 let result = outer();
 result();

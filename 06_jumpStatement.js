@@ -1,16 +1,16 @@
 // break
 
-for (let index = 0; index < 20; index++) {
+for (let index = 0; index <= 20; index++) {
 
     console.log(index);
 
-    if (index==10) {
+    if (index==15) {
 
         break;
 
     } 
 
-    console.log("logged index value");
+    // console.log("logged index value");
 
 }
 
@@ -28,7 +28,7 @@ for (let index = 0; index < 20; index++) {
 
     }
 
-    console.log("logged index value"); 
+    // console.log("logged index value"); 
 
 }
 

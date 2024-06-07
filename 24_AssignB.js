@@ -24,7 +24,7 @@ let emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy")
 const arrayEmployees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_viny, emp_mahi];
 console.log(`================= Employees Who's company is TCS =================`);
 arrayEmployees.forEach((employee) => {
-    if (employee.emp_company == "TCS") {
+    if (employee.emp_company === "TCS") {
         console.log(`The employee ${employee.emp_name} working in ${employee.emp_company}`);
     }
 })

@@ -4,11 +4,12 @@ const arrayTransform = array.map( (currentValue)=> {
     return currentValue*currentValue;
 } );
 console.log(arrayTransform);
-// const transformedArray = [];
-// array.forEach( (element)=> {
-//     transformedArray.push(element*element);
-// } );
-// console.log(transformedArray);
+
+const transformedArray = [];
+array.forEach( (element)=> {
+    transformedArray.push(element*element);
+});
+console.log(transformedArray);
  
 const arrayNum =  [4,  5,  3, 2, 7];
                 //[4,  6,  5, 5, 11]

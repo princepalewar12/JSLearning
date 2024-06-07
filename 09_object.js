@@ -3,7 +3,7 @@ let person = {
     age: 22,
     isMarried: true ,
     show:function(){
-
+        console.log(`Show functions code`);
     }
 }
 console.log(typeof person);
@@ -15,14 +15,15 @@ console.log(`===================================`);
 
 
 //Property access
-//1. Dot Notation
+console.log(`====================== 1. Dot Notation =====================`)
 
 let personaName = person.name;
 console.log(`person Name is: ${personaName}`);
 console.log(`person age is: ${person.age}`);
 
-// 2. [] Notation
-let nameOfPerson = person["name"]
+console.log(`====================== 2. [] Notation =====================`)
+
+let nameOfPerson = person["city"]
 console.log(`Person name is: ${nameOfPerson}`)
 
 console.log(`Adding property in object`);
@@ -37,7 +38,7 @@ console.log(person);
 console.log(`Delete property from an object`);
 delete person.age;
 console.log(person);
-
+console.log(`=============================================`);
 console.log(` Adding method in an object`);
 person.show();
 person.display = function(){

@@ -20,7 +20,7 @@ console.log(elementH2[1].innerHTML);
 
 console.log('======= DOM API getElementsByClassName() ===========');
 
-const elementsTechStack=document.getElementsByClassName('techStack');
+const elementsTechStack = document.getElementsByClassName('techStack');
 
 console.log(elementsTechStack);
 
@@ -36,7 +36,6 @@ console.log(h2Element.innerHTML);
  
 
 console.log('Selecting an element by id');
-
 const h2ElementTitle = document.querySelector('#title');
 
 console.log(h2ElementTitle.innerHTML);

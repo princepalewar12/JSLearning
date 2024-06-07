@@ -1,7 +1,7 @@
 function stringTamplateAssign() {
     console.log(`My dream company is "Adobe"`);
-    var yourHobby1 = "Reading";
-    var yourHobby2 = "Training";
+    var yourHobby1 = "Reading ";
+    var yourHobby2 = "Training ";
     var yourHobby3 = "Playing Guitar";
 
     console.log(`My Hobbies are ${yourHobby1}, ${yourHobby2}, ${yourHobby3}.`);

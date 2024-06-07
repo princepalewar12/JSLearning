@@ -5,6 +5,10 @@
 //     console.log("Prince ", surname);
 // }
 // name("palewar");
+
+
+
+
 var firstName; // variable declaration
 
 firstName = "Prince";  // Variable initialization

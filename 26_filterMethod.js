@@ -37,7 +37,9 @@ const arrayEmployees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monica, 
  // 2. Only TCS employees
  const arrayTcsEmployees = arrayEmployees.filter( (employee) => {
     return employee.emp_company=='TCS';
- });
+ }).map( (employee)=> {
+    return employee.emp_salary;
+ } );
  console.log(arrayTcsEmployees);
  const arrayTcsSalary = arrayTcsEmployees.map( (employee)=> {
     return employee.emp_salary;

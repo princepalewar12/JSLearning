@@ -1,5 +1,5 @@
 var marks = 63;
-//If marks is greater than than 63;
+//If marks is greater than than 60;
 //then allow for interview else don't allow for interview
 var result = marks>=60 ? "Allow for interview" : "dont allow";
 console.log(result);

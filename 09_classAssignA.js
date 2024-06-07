@@ -69,7 +69,6 @@ console.log(`===================================================================
 
 function traverseObject(object){
  for (const key in object) {
-    var i = 0;
     if (Object.hasOwnProperty.call(object, key)) {
         const element = object[key];
         console.log(` ${key}:- ${element}`);

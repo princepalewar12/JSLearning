@@ -3,11 +3,13 @@ var n2 = 0;
 var result = n1/n2;
 console.log(result);
 console.log(typeof result);
+console.log(`============================================================`);
 
 var num = "20";
 console.log(typeof num);
 var result = +num;
 console.log(typeof result);
+console.log(`============================================================`);
 
 var num1 = "jenny";
 var result = +num1;

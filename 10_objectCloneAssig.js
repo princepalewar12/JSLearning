@@ -14,11 +14,11 @@ const collegeDetails = {
     university: "RTMNU"
 }
 
-let mergeObjects = Object.assign({},personalDetails,collegeDetails);
+let mergeObjects = Object.assign({}, personalDetails, collegeDetails);
 console.log(`============ Object details After Merging them ==========`);
 console.table(mergeObjects);
 
-let friendName = ['sahil','kshitij','sakshi','kanaka','Prince']
+let friendName = ['sahil', 'kshitij', 'sakshi', 'kanaka', 'Prince']
 Object.freeze(friendName);
 console.log(friendName);
 // var changeName = friendName.push("Dhoble");
@@ -33,9 +33,24 @@ for (const iterator of friendName) {
 console.log(`=============== Reverse last word from the two words ===========`);
 
 var words = "codemind Technology";
-var reverse = '';
-for(let i = words.length-1; i= words.length; i--){
-    console.log(words.charAt(i));
+let firstString = '';
+let secondString = '';
+for (let i = 0; i <= words.length; i++) {
+    if (words[i] !== " ") {
+        firstString = firstString + words[i];
+    } else if (words[i] == " ") {
+        for (let j = words.length - 1; j >= 0; j--) {
+            if (words[j] !== " ") {
+                secondString = secondString  + words[j];
+            } else {
+                break
+            }
+        }
+        console.log(firstString + " " + secondString);
+
+    }
+
+
 }
 
 // sha key: 09ac13c085c992043747cca69588b6fbdf2839c7

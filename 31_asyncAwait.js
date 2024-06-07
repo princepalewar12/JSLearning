@@ -4,11 +4,11 @@ async function getData(){
 
         resolve('Promise resolved')
 
-        // setTimeout( ()=>{
+        setTimeout( ()=>{
 
-        //     console.log('Inside setTimeout()');
+            console.log('Inside setTimeout()');
 
-        // }, 4000 );
+        }, 4000 );
 
     } );
 

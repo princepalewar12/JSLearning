@@ -7,7 +7,7 @@ console.log("Total number of character in greet is", res);
 console.log("Character at index 0 in greet is", greet.charAt(0));
 // var indexOfGreet = greet.length-1;
 console.log("The last third character in the greet is", greet.charAt(greet.length - 3));
-console.log("====================concate()===============================");
+console.log("==================== concate() ===============================");
 var firstName = "Prince ";
 var lastName = "Palewar";
 var fullName = firstName.concat(lastName);
@@ -62,7 +62,7 @@ console.log("========== slice() =============== ");
 var greet = 'Hello Good Morning!';
 var result = greet.slice(6);
 console.log(result);
-var result = greet.slice(6, 10);
+var result = greet.slice(6, 10);//the string will slice from index 6 till index 9 (10 means till before 10).
 console.log(result);
 
 console.log("========== split() =============== ");
@@ -73,9 +73,15 @@ console.log(result);
 
 var str = "I am a UI developer";
 var split = str.split(" ");
+console.log(split);
 console.log("The number of words in the str variable is ",split.length);
 console.log(`Total words are ${split.length}`);
 console.log("data type:",typeof split);
+
+console.log(`========== replaceAll ==========`);
+var replaceStr = str.replaceAll(" ",'');
+console.log(replaceStr); //no. of letter in str
+console.log(replaceStr.length);
 
 // String template
 console.log("I am a \"UI\" developer"); 

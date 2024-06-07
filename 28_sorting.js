@@ -10,8 +10,6 @@ console.log(reverseArray);
 console.log(`============= Sorting an array of number ======`);
 const array = [29,15,31,111,27,6];
 //Sorting an array in ascending order
-let reverseArrayNum = array.sort((a,b) =>{
-    return a>b ? 1 : -1;
-})
+let reverseArrayNum = array.sort((a,b) => b-a)
 console.log(reverseArrayNum);
 console.log(reverseArrayNum[0]);

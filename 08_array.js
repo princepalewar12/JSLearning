@@ -30,13 +30,13 @@ for (let index = arrayNum.length - 1; index >= 0; index--) {
     const element = arrayNum[index];
     console.log(element);
 }
-let arrayNums = [22, 11, 44, 55, 77, 33];
 console.log(`====== Adding element in last=========`);
+let arrayNums = [22, 11, 44, 55, 77, 33];
 arrayNums.push(88);
 console.log(arrayNums);
 
 let arrayNumbers = [22, 11, 44, 55, 77, 33];
-console.log(`====== Removing element in last=========`);
+console.log(`====== Removing element from last=========`);
 arrayNumbers.pop();
 console.log(arrayNumbers);
 
@@ -44,8 +44,9 @@ console.log(arrayNumbers);
 console.log(`====== Adding element in first position  =========`);
 arrayNumbers.unshift(99);
 console.log(arrayNumbers);
+
 let arrayN = [22, 11, 44, 55, 77, 33];
-console.log(`====== Removing element in first position =========`);
+console.log(`====== Removing element from first position =========`);
 arrayN.shift();
 console.log(arrayN);
 
@@ -100,6 +101,14 @@ console.log(arrayNumber);
 
 
 console.log(`================ for in loop ==================`);
+
+// for (const key in object) {
+//     if (Object.hasOwnProperty.call(object, key)) {
+//         const element = object[key];
+        
+//     }
+// }
+
 var arrayNumber = [22, 11, 44, 55, 77, 33];
 for (const index in arrayNumber) {
     const element = arrayNumber[index];
@@ -124,7 +133,8 @@ do {
     key ++;
 } while (key<arrayNumber.length);
 
-console.log(`============= for of loop ==========`);     
+console.log(`============= for of loop ==========`);    
+
 var arrayNumber = [22,11,44,55,77,33];
 for (const element of arrayNumber) {
     console.log(element);

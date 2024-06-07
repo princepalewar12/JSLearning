@@ -12,9 +12,11 @@ console.log("\n");
 
 console.log("++++++++++++++++++++++++++++ TASK 02 ++++++++++++++++++++++++++++++++");
 function operatorOperation() {
-    var position = "I am a Angular Developer";
+    var position = "I am a React Developer";
     var stringLength = position.length;
     console.log(`The length of a given string is ${stringLength}`);
+    var removeSpace = position.replaceAll(' ','')
+    console.log(removeSpace.length);
     var splitString = position.split(" ");
     var wordsLength = splitString.join("").length;
     console.log(`The number of words in the given string is:${wordsLength}`);

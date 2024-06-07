@@ -1,21 +1,21 @@
-'use strict'
+// 'use strict'
 
  
 
-// firstName = 'Jenny'; // Not allowed in strict mode
+firstName = 'Jenny'; // Not allowed in strict mode
 
-// console.log(firstName);
+console.log(firstName);
 
  
 
-let person = {
+// let person = {
 
-    fullName: 'Billgates',
+//     fullName: 'Billgates',
 
-    age: 67
+//     age: 67
 
-}
+// }
 
-console.log(person);
+// console.log(person);
 
-delete person;
+// delete person;

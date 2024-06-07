@@ -32,14 +32,16 @@ var swapValues = function (value1, value2) {
     var value1 = value2;
     var value2 = temp;
     console.log(`After swap the values are "${value1}" and "${value2}".`);
-}
+} 
 swapValues("mahi","Raina")
 console.log(`        -------- Test Case 2 --------        `);
 swapValues(55,77)
 console.log(`++++++++++++++++++++ String Operations +++++++++++++++++++`);
 var stringOperation = function(param){
     var totalChar = param.split(' ')
+    console.log(totalChar);
     var charJoin = totalChar.join('');
+    console.log(charJoin);
     console.log(`A. The given string is "JS the most popular language of internet".\n   The number of character in the given Sentence is: ${charJoin.length}. `);
     console.log(`B. Character at index(6) in the given string is: "${param.charAt(6)}".`);
     console.log(`C. Character at index(11) in the given string is: "${param.charAt(11)}".`);

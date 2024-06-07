@@ -20,6 +20,7 @@ swap(100,200);
 
 console.log("=====Function type: function with argument and return type=====");
 function jenny(rupees) {
+    console.log(rupees);
     console.log("She went market and bought vegetables");
     var bag = "Vegetable required for a week\n";
     return bag;

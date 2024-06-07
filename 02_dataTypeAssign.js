@@ -14,5 +14,10 @@ console.log("Null means the variable we used to store data has no value.\n There
 console.log("Undefined:-")
 console.log("Undefined means the variable will store the special keyword\n undefined in the storage so that we can use that variable in the code after some time.");
 
+var num;
+console.log(num);
+console.log(value);
+var value = 0;
+
 // Count 6: PRINCE PALEWAR 
 // SHA KEY: ceddb04410c11c2dc4f08c74e8c5dd7d4701ff9d

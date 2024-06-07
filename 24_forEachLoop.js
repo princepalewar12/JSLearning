@@ -5,6 +5,8 @@ arrayNum.forEach(function(currentValue, index,array){
     
 })
 
+console.log(`-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-`);
+
 arrayNum.forEach((currentValue, index,array)=>{
     console.log(`Current Value: ${currentValue}, Index: ${index}, array`,array);
 

@@ -89,3 +89,5 @@ console.log(arrayNumbers);
 console.log(`========= Delete 3 elements starting from index 4`);
 arrayNumbers.splice(4,3)
 console.log(arrayNumbers);
+
+

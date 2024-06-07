@@ -1,43 +1,72 @@
-const promiseNotes = new Promise(function(resolve, reject){
+// const promiseNotes = new Promise(function (resolve, reject) {
 
-    console.log('Promise is pending state');
+//     console.log('Promise in pending state');
 
-    const isNotesPrepared = false;
+//     const isNotesPrepared = false;
 
-    if (isNotesPrepared) {
+//     if (isNotesPrepared) {
 
-        resolve('Notes is prepared and here is the notes guys...') 
+//         resolve('Notes is prepared and here is the notes guys...')
 
-    }else{
+//     } else {
 
-        reject("Sorry guys, I din't get time, Please prepare notes your self");
+//         reject("Sorry guys, I din't get time, Please prepare notes your self");
+//     }
 
-    }
+// })
 
-})
+// promiseNotes
+//     .then(function(success) {
 
-promiseNotes.then( function(success){
+//         console.log(`========= then() ============`);
 
-    console.log(`========= then() ============`);
+//         console.log(success);
 
+//         console.log('Thank you....');
+
+//     }).catch(function(failure) {
+
+//         console.log(`========= catch() ============`);
+
+//         console.log(failure);
+
+//         console.log(`Are yar.... `);
+
+//     }).finally(function () {
+
+//         console.log(`========= finally block ============`);
+
+//         console.log('I must have notes... ');
+
+//         console.log("05_conversion.js In case Sir won't share it, will prepare my self");
+
+//     })
+
+const homeworkReady = new Promise(function (resolve, reject) {
+  console.log(`Promise is in Pending mode`);
+
+  const isReady = false;
+  if (isReady) {
+    resolve (`The Home work is ready, You can copy..`);
+  } else {
+    reject (`Sorry it's not Ready`);
+  }
+});
+
+homeworkReady
+  .then(function (success) {
+    console.log(`===When promise gets resolve===`);
     console.log(success);
-
-    console.log('Thank you....');
-
-}).catch(function(failure){
-
-    console.log(`========= catch() ============`);
-
+    console.log(`That's Great`);
+  })
+  .catch(function (failure) {
+    console.log(`===When promise gets rejected===`);
     console.log(failure);
-
-    console.log(`Are yar.... `);
-
-}).finally(function(){
-
-    console.log(`========= finally block ============`);
-
-    console.log('I must have notes... ');
-
-    console.log("05_conversion.jsIn case Sir won't share it, will prepare my self");
-
-})
+    console.log(`Ohh No..`);
+  })
+  .finally(function () {
+    console.log(`I must have notes`);
+    console.log(
+      `The Finally block will run in both the cases weather the promise gets resolve or reject`
+    );
+  });

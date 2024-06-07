@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\06_loopAssigA.js"
+            "program": "${workspaceFolder}\\01_variable.js"
         }
     ]
 }
